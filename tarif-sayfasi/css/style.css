@@ -1,0 +1,131 @@
+.container{
+max-width:700px;
+margin:auto;
+background:white;
+padding:40px;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius:20px;
+}
+
+.resim img{
+  max-width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+  display: block;
+  background-size:cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.aciklama1{
+  padding: 20px 0;
+}
+
+.cizgi-div{
+  padding: 15px 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%); 
+  
+}
+
+.hazirlama-baslik{
+  padding: 20px;
+  color: var(--gul-800);
+}
+
+.hazirlama-liste{
+  padding-left:45px ;
+}
+
+.hazirlama-liste li{
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.icerik-baslik{
+  padding: 20px 0px;
+  color: var(--tas-600);
+}
+
+.icerik-liste{
+  padding-left: 20px;
+}
+
+.icerik-liste li{
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.instruction-baslik{
+  padding: 5px 0px;
+  color: var(--tas-600);
+}
+
+.instruction-liste{
+  padding-left: 20px;
+}
+
+.instruction-liste li{
+  padding-left: 10px;
+  margin-bottom: 5px;
+  line-height: 1.5rem;
+}
+
+.nutrition-baslik{
+  color: var(--gul-800);
+  padding: 20px 0;
+}
+
+.nutrition-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.nutrition-row p{
+  text-align: left;
+  padding-left: 25px;
+}
+
+.deger{
+  text-align: left;
+  width: 300px;
+  color: var(--gul-800);
+}
+
+@media (max-width: 375px) {
+
+  body {
+    background: white;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    padding: 32px;
+  }
+
+  .resim img {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  
+
+  .hazirlama-baslik {
+    padding: 20px;
+  }
+
+  .icerik-baslik,
+  .instruction-baslik,
+  .nutrition-baslik {
+    padding: 20px 0;
+  }
+
+  .deger{
+    width: 100px;
+  }
+
+}
