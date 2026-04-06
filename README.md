@@ -22,8 +22,8 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Yakkarizma/Tarif-Sayfasi)
-- Live Site URL: [Add live site URL here](https://yakkarizma.github.io/Tarif-Sayfasi/)
+- Solution URL: [https://github.com/Yakkarizma/Tarif-Sayfasi]
+- Live Site URL: [https://yakkarizma.github.io/Tarif-Sayfasi/]
 
 ### Built with
 
